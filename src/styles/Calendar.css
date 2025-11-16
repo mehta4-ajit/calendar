@@ -1,0 +1,43 @@
+.calendar {
+  display: inline-block;
+  background: #0f1b22;
+  color: #dce3e8;
+  padding: 10px 14px;
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.cal-header {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 6px;
+  letter-spacing: 1px;
+}
+.cal-row {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.cal-weekday {
+  font-weight: bold;
+  padding: 2px 4px;
+  text-align: center;
+  margin-bottom: 4px;
+}
+.cal-day {
+  text-align: center;
+  padding: 2px 4px;
+  height: 20px;
+  line-height: 20px;
+}
+.cal-today {
+  background: #dce3e8;
+  color: #000;
+  border-radius: 2px;
+  font-weight: bold;
+}
+.cal-error {
+  padding: 10px;
+  color: #ff6b6b;
+  text-align: center;
+  font-family: monospace;
+}
